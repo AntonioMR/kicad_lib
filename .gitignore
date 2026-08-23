@@ -1,0 +1,23 @@
+# Generated from lib_db/source/*.csv via lib_db/build_db.py — never committed,
+# regenerate locally with `python3 lib_db/build_db.py`.
+lib_db/catalog.sqlite
+lib_db/catalog.sqlite-journal
+lib_db/catalog.sqlite-wal
+lib_db/catalog.sqlite-shm
+
+# Python
+__pycache__/
+*.pyc
+
+# KiCad backups/locks/autosave
+*.bak
+*.lck
+*-backups/
+_autosave-*
+\#auto_saved_files#
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
