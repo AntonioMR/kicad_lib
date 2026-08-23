@@ -1,0 +1,4171 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "Component Catalog",
+    "description": "All catalog components are selectable here — authorization is checked separately, at BOM time.",
+    "source": {
+        "type": "sqlite3",
+        "connection_string": "Driver={SQLite3};Database=${CWD}/lib_db/catalog.sqlite"
+
+    },
+    "libraries": [
+        {
+            "name": "Analog",
+            "table": "analog",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels"
+                },
+                {
+                    "column": "GBW",
+                    "name": "GBW"
+                },
+                {
+                    "column": "SlewRate",
+                    "name": "SlewRate"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Audio",
+            "table": "audio",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels"
+                },
+                {
+                    "column": "PowerOut",
+                    "name": "PowerOut"
+                },
+                {
+                    "column": "THD",
+                    "name": "THD"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Capacitors",
+            "table": "capacitor",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric"
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR"
+                },
+                {
+                    "column": "Ripple",
+                    "name": "Ripple"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Height",
+                    "name": "Height"
+                },
+                {
+                    "column": "Polarized",
+                    "name": "Polarized"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "Lifecycle",
+                    "name": "Lifecycle"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Electrolytic Capacitors",
+            "table": "capacitor_elec",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR"
+                },
+                {
+                    "column": "Ripple",
+                    "name": "Ripple"
+                },
+                {
+                    "column": "LifeRating",
+                    "name": "LifeRating"
+                },
+                {
+                    "column": "Polarized",
+                    "name": "Polarized"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "Lifecycle",
+                    "name": "Lifecycle"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Film Capacitors",
+            "table": "capacitor_film",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric"
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "Lifecycle",
+                    "name": "Lifecycle"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Tantalum Capacitors",
+            "table": "capacitor_tan",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric"
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR"
+                },
+                {
+                    "column": "Ripple",
+                    "name": "Ripple"
+                },
+                {
+                    "column": "Package_mil",
+                    "name": "Package_mil"
+                },
+                {
+                    "column": "Package_mm",
+                    "name": "Package_mm"
+                },
+                {
+                    "column": "Dimensions",
+                    "name": "Dimensions"
+                },
+                {
+                    "column": "Height",
+                    "name": "Height"
+                },
+                {
+                    "column": "CodeSize",
+                    "name": "CodeSize"
+                },
+                {
+                    "column": "Polarized",
+                    "name": "Polarized"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "Lifecycle",
+                    "name": "Lifecycle"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Connectors",
+            "table": "connectors",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Family",
+                    "name": "Family"
+                },
+                {
+                    "column": "Gender",
+                    "name": "Gender"
+                },
+                {
+                    "column": "Positions",
+                    "name": "Positions"
+                },
+                {
+                    "column": "Pitch",
+                    "name": "Pitch"
+                },
+                {
+                    "column": "Mounting",
+                    "name": "Mounting"
+                },
+                {
+                    "column": "Current",
+                    "name": "Current"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Orientation",
+                    "name": "Orientation"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Height",
+                    "name": "Height"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Crystals",
+            "table": "crystals",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Frequency",
+                    "name": "Frequency"
+                },
+                {
+                    "column": "LoadCap",
+                    "name": "LoadCap"
+                },
+                {
+                    "column": "Stability",
+                    "name": "Stability"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR"
+                },
+                {
+                    "column": "Drive",
+                    "name": "Drive"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Height",
+                    "name": "Height"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Diodes",
+            "table": "diodes",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Vf",
+                    "name": "Vf"
+                },
+                {
+                    "column": "Vr",
+                    "name": "Vr"
+                },
+                {
+                    "column": "If",
+                    "name": "If"
+                },
+                {
+                    "column": "Ir",
+                    "name": "Ir"
+                },
+                {
+                    "column": "Power",
+                    "name": "Power"
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Polarity",
+                    "name": "Polarity"
+                },
+                {
+                    "column": "ESD Rating",
+                    "name": "ESD Rating"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Displays",
+            "table": "displays",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Digits",
+                    "name": "Digits"
+                },
+                {
+                    "column": "Color",
+                    "name": "Color"
+                },
+                {
+                    "column": "Interface",
+                    "name": "Interface"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Drivers",
+            "table": "drivers",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels"
+                },
+                {
+                    "column": "VoltageRange",
+                    "name": "VoltageRange"
+                },
+                {
+                    "column": "CurrentMax",
+                    "name": "CurrentMax"
+                },
+                {
+                    "column": "Interface",
+                    "name": "Interface"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Encoders",
+            "table": "encoders",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Resolution",
+                    "name": "Resolution"
+                },
+                {
+                    "column": "Interface",
+                    "name": "Interface"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "ESD Protection",
+            "table": "esd_protection",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Vwm",
+                    "name": "Vwm"
+                },
+                {
+                    "column": "Vc",
+                    "name": "Vc"
+                },
+                {
+                    "column": "IppMax",
+                    "name": "IppMax"
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Ferrites",
+            "table": "ferrite",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "ImpedanceAtFreq",
+                    "name": "ImpedanceAtFreq"
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR"
+                },
+                {
+                    "column": "RatedCurrent",
+                    "name": "RatedCurrent"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Fuses",
+            "table": "fuses",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Current",
+                    "name": "Current"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "BreakingCap",
+                    "name": "BreakingCap"
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance"
+                },
+                {
+                    "column": "TripTime",
+                    "name": "TripTime"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "ICs (uncategorized)",
+            "table": "ics",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Clock",
+                    "name": "Clock"
+                },
+                {
+                    "column": "Memory",
+                    "name": "Memory"
+                },
+                {
+                    "column": "Interfaces",
+                    "name": "Interfaces"
+                },
+                {
+                    "column": "IO Count",
+                    "name": "IO Count"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "ESD",
+                    "name": "ESD"
+                },
+                {
+                    "column": "Power",
+                    "name": "Power"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Inductors",
+            "table": "inductor",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Inductance",
+                    "name": "Inductance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Ir",
+                    "name": "Ir"
+                },
+                {
+                    "column": "Isat",
+                    "name": "Isat"
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR"
+                },
+                {
+                    "column": "SRF",
+                    "name": "SRF"
+                },
+                {
+                    "column": "Q",
+                    "name": "Q"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Core",
+                    "name": "Core"
+                },
+                {
+                    "column": "Shielded",
+                    "name": "Shielded"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "Lifecycle",
+                    "name": "Lifecycle"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Interface",
+            "table": "interface",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Protocol",
+                    "name": "Protocol"
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels"
+                },
+                {
+                    "column": "DataRate",
+                    "name": "DataRate"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "LEDs",
+            "table": "leds",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Color",
+                    "name": "Color"
+                },
+                {
+                    "column": "Vf",
+                    "name": "Vf"
+                },
+                {
+                    "column": "If",
+                    "name": "If"
+                },
+                {
+                    "column": "LuminousIntensity",
+                    "name": "LuminousIntensity"
+                },
+                {
+                    "column": "ViewingAngle",
+                    "name": "ViewingAngle"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Logic",
+            "table": "logic",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Function",
+                    "name": "Function"
+                },
+                {
+                    "column": "LogicFamily",
+                    "name": "LogicFamily"
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Mechanical",
+            "table": "mechanical",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Dimensions",
+                    "name": "Dimensions"
+                },
+                {
+                    "column": "Material",
+                    "name": "Material"
+                },
+                {
+                    "column": "Mounting",
+                    "name": "Mounting"
+                },
+                {
+                    "column": "Height",
+                    "name": "Height"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Memory",
+            "table": "memory",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Capacity",
+                    "name": "Capacity"
+                },
+                {
+                    "column": "Interface",
+                    "name": "Interface"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Microcontrollers",
+            "table": "microcontroller",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Core",
+                    "name": "Core"
+                },
+                {
+                    "column": "ClockSpeed",
+                    "name": "ClockSpeed"
+                },
+                {
+                    "column": "Flash",
+                    "name": "Flash"
+                },
+                {
+                    "column": "RAM",
+                    "name": "RAM"
+                },
+                {
+                    "column": "IOCount",
+                    "name": "IOCount"
+                },
+                {
+                    "column": "Interfaces",
+                    "name": "Interfaces"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Optocouplers",
+            "table": "opto",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "CTR",
+                    "name": "CTR"
+                },
+                {
+                    "column": "IsolationVoltage",
+                    "name": "IsolationVoltage"
+                },
+                {
+                    "column": "Vce",
+                    "name": "Vce"
+                },
+                {
+                    "column": "ResponseTime",
+                    "name": "ResponseTime"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Potentiometers & Trimmers",
+            "table": "potentiometer",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Power",
+                    "name": "Power"
+                },
+                {
+                    "column": "Taper",
+                    "name": "Taper"
+                },
+                {
+                    "column": "Turns",
+                    "name": "Turns"
+                },
+                {
+                    "column": "Mounting",
+                    "name": "Mounting"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Processors",
+            "table": "processor",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Architecture",
+                    "name": "Architecture"
+                },
+                {
+                    "column": "ClockSpeed",
+                    "name": "ClockSpeed"
+                },
+                {
+                    "column": "Cores",
+                    "name": "Cores"
+                },
+                {
+                    "column": "Memory",
+                    "name": "Memory"
+                },
+                {
+                    "column": "Interfaces",
+                    "name": "Interfaces"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Power Management",
+            "table": "regulator",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Vout",
+                    "name": "Vout"
+                },
+                {
+                    "column": "VinRange",
+                    "name": "VinRange"
+                },
+                {
+                    "column": "Iout",
+                    "name": "Iout"
+                },
+                {
+                    "column": "Efficiency",
+                    "name": "Efficiency"
+                },
+                {
+                    "column": "Dropout",
+                    "name": "Dropout"
+                },
+                {
+                    "column": "Freq",
+                    "name": "Freq"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "ThermalR",
+                    "name": "ThermalR"
+                },
+                {
+                    "column": "IQ",
+                    "name": "IQ"
+                },
+                {
+                    "column": "Protections",
+                    "name": "Protections"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Relays",
+            "table": "relays",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Coil Voltage",
+                    "name": "Coil Voltage"
+                },
+                {
+                    "column": "Coil Current",
+                    "name": "Coil Current"
+                },
+                {
+                    "column": "Contact Type",
+                    "name": "Contact Type"
+                },
+                {
+                    "column": "Contact Rating",
+                    "name": "Contact Rating"
+                },
+                {
+                    "column": "Switch Voltage",
+                    "name": "Switch Voltage"
+                },
+                {
+                    "column": "Switch Current",
+                    "name": "Switch Current"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Resistors",
+            "table": "resistor",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
+                    "column": "Serie",
+                    "name": "Serie"
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance"
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance"
+                },
+                {
+                    "column": "Power",
+                    "name": "Power"
+                },
+                {
+                    "column": "Power_frac",
+                    "name": "Power_frac"
+                },
+                {
+                    "column": "TempCoeff",
+                    "name": "TempCoeff"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Dimensions",
+                    "name": "Dimensions"
+                },
+                {
+                    "column": "Height",
+                    "name": "Height"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Technology",
+                    "name": "Technology"
+                },
+                {
+                    "column": "Mounting",
+                    "name": "Mounting"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "Lifecycle",
+                    "name": "Lifecycle"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Sensors",
+            "table": "sensors",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Interface",
+                    "name": "Interface"
+                },
+                {
+                    "column": "Range",
+                    "name": "Range"
+                },
+                {
+                    "column": "Accuracy",
+                    "name": "Accuracy"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Switches",
+            "table": "switches",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Poles",
+                    "name": "Poles"
+                },
+                {
+                    "column": "Throws",
+                    "name": "Throws"
+                },
+                {
+                    "column": "Force",
+                    "name": "Force"
+                },
+                {
+                    "column": "Travel",
+                    "name": "Travel"
+                },
+                {
+                    "column": "Rating",
+                    "name": "Rating"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Mounting",
+                    "name": "Mounting"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Test Points",
+            "table": "testpoints",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Color",
+                    "name": "Color"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Mounting",
+                    "name": "Mounting"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        },
+        {
+            "name": "Transistors",
+            "table": "transistor",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Polarity",
+                    "name": "Polarity"
+                },
+                {
+                    "column": "Vds",
+                    "name": "Vds"
+                },
+                {
+                    "column": "Id",
+                    "name": "Id"
+                },
+                {
+                    "column": "RdsOn",
+                    "name": "RdsOn"
+                },
+                {
+                    "column": "hFE",
+                    "name": "hFE"
+                },
+                {
+                    "column": "Qg",
+                    "name": "Qg"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
+                },
+                {
+                    "column": "Power",
+                    "name": "Power"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                }
+            ]
+        }
+    ]
+}
