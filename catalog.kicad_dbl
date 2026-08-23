@@ -20,16 +20,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -49,9 +46,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -128,6 +123,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -141,16 +164,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -170,9 +190,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -249,6 +267,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -262,16 +308,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -291,9 +334,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Suplier URL",
@@ -390,6 +431,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -403,16 +472,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -432,9 +498,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -523,6 +587,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -536,16 +628,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -565,9 +654,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -648,6 +735,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -661,16 +776,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -690,9 +802,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Suplier URL",
@@ -801,6 +911,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -814,16 +952,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -843,9 +978,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -934,6 +1067,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -947,16 +1108,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -976,9 +1134,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1059,6 +1215,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1072,16 +1256,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1101,9 +1282,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1196,6 +1375,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1209,16 +1416,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1238,9 +1442,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1317,6 +1519,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1330,16 +1560,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1359,9 +1586,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1438,6 +1663,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1451,16 +1704,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1480,9 +1730,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1555,6 +1803,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1568,16 +1844,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1597,9 +1870,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1676,6 +1947,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1689,16 +1988,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1718,9 +2014,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1789,6 +2083,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1802,16 +2124,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1831,9 +2150,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1910,6 +2227,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -1923,16 +2268,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -1952,9 +2294,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2043,6 +2383,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2056,16 +2424,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2085,9 +2450,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2184,6 +2547,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2197,16 +2588,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2226,9 +2614,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2301,6 +2687,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2314,16 +2728,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2343,9 +2754,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2418,6 +2827,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2431,16 +2868,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2460,9 +2894,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2535,6 +2967,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2548,16 +3008,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2577,9 +3034,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2648,6 +3103,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2661,16 +3144,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2690,9 +3170,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2765,6 +3243,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2778,16 +3284,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2807,9 +3310,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2894,6 +3395,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -2907,16 +3436,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -2936,9 +3462,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3015,6 +3539,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3028,16 +3580,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3057,9 +3606,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3140,6 +3687,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3153,16 +3728,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3182,9 +3754,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3265,6 +3835,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3278,16 +3876,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3307,9 +3902,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3406,6 +3999,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3419,16 +4040,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3448,9 +4066,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3527,6 +4143,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3540,16 +4184,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3569,9 +4210,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Suplier URL",
@@ -3680,6 +4319,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3693,16 +4360,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3722,9 +4386,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3801,6 +4463,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3814,16 +4504,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3843,9 +4530,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3926,6 +4611,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -3939,16 +4652,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -3968,9 +4678,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -4031,6 +4739,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         },
@@ -4044,16 +4780,13 @@
                 {
                     "column": "IPN",
                     "name": "IPN",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Part Number",
                     "name": "Part Number",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Description",
@@ -4073,9 +4806,7 @@
                 {
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
-                    "visible_on_add": true,
                     "visible_in_chooser": true,
-                    "show_name": true
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -4164,6 +4895,34 @@
                 {
                     "column": "Comments",
                     "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
                 }
             ]
         }
