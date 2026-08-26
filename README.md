@@ -76,6 +76,50 @@ valid IPN value.
 The unassigned placeholder is a `-????` suffix (e.g. `IPN_C-????`); any
 other suffix (e.g. `IPN_C-0001`) counts as assigned.
 
+## Component review template
+
+Symbols, footprints and 3D models come from a mix of sources — built from
+scratch, adapted from a manufacturer library, or pulled from KiCad's
+standard libraries — so each one needs a manual review pass before it's
+trusted for a real build, regardless of where it came from. A component is reviewed and recorded by direct commit, in two separate steps.
+
+**Step 1 — on first use, before assigning a real IPN.** Work through the
+checklist below, then replace the row's `IPN` `-????` placeholder with a
+real value and fill in `Created By` / `Created On`. A real IPN means the
+symbol/footprint has passed this checklist and is safe to place in a
+schematic and build into a prototype.
+
+**Step 2 — once validated on a built prototype or production run.** Fill
+in `Approved By` / `Approved On` in a follow-up commit. A finished/
+production BOM should not contain parts missing either a real IPN or
+`Approved By`/`Approved On`. A prototype BOM only needs the real IPN.
+
+### Checklist
+
+**Symbol**
+- [ ] Pin count, numbers and names match the datasheet pinout exactly.
+- [ ] Pin electrical type (input/output/bidirectional/power/passive/NC) is set correctly — drives ERC.
+- [ ] Power and ground pins are typed `Power input` (or hidden + `Power`) so ERC catches an unconnected rail.
+- [ ] Unused/NC pins are marked `NC` and, where the datasheet requires it, actually left unconnected.
+- [ ] Revision field populated in symbol file.
+- [ ] Fields populated per the family's CSV schema — `Manufacturer Part Number`, `Datasheet` link, `Package` at minimum.
+- [ ] Graphical pin layout is legible (grouped by function, no overlapping pins).
+
+**Footprint / land pattern**
+- [ ] Pad shapes, pitch and count match the manufacturer's recommended land pattern from the datasheet/package drawing.
+- [ ] Where no manufacturer land pattern is given, the footprint follows IPC-7351 (nominal/least/most material condition per the part's density level).
+- [ ] Pad numbering matches the symbol's pin numbering 1:1 (verified with an ERC/footprint-association check, not just by eye).
+- [ ] Courtyard (`F.CrtYd`) is present and sized per IPC-7351 Level B (Nominal/Median density) courtyard excess. Library default is **0.20 mm** — the industry-practice value, tighter than the literal IPC-7351 Level B range of 0.15–0.25 mm (often cited as 0.25 mm). Courtyards must not overlap adjacent footprints at this spacing.
+- [ ] Footprint origin/anchor point is consistent with the family convention (typically pin 1 or body centroid).
+- [ ] Silkscreen (`F.SilkS`) shows a pin-1 marker, does not overlap pads, and courtyard/fab layers agree on the body outline.
+- [ ] 3D model is assigned, correctly scaled/rotated/offset, and visually matches the datasheet package drawing when previewed in the footprint editor.
+
+**DNP and testpoint conventions**
+- [ ] Populate-option parts are marked with KiCad's `Exclude from BOM` / `Do not populate` footprint attribute, not silently omitted from the schematic.
+- [ ] Test points use the `testpoints` family and the `TP` reference prefix, not a repurposed connector or via-only footprint.
+- [ ] A DNP part still carries a complete, reviewed symbol/footprint pair — DNP affects BOM/assembly output, not review scope.
+- [ ] Revision field populated in footprint file.
+
 ## Generated database
 
 `lib_db/catalog.sqlite` is **generated from `lib_db/source/*.csv`**, never

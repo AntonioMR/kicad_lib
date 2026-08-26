@@ -2297,6 +2297,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Supplier",
+                    "name": "Supplier"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -2347,6 +2351,162 @@
                 {
                     "column": "Power",
                     "name": "Power"
+                },
+                {
+                    "column": "TempRange",
+                    "name": "TempRange"
+                },
+                {
+                    "column": "RoHS",
+                    "name": "RoHS"
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet"
+                },
+                {
+                    "column": "Created By",
+                    "name": "Created By"
+                },
+                {
+                    "column": "Created On",
+                    "name": "Created On"
+                },
+                {
+                    "column": "Approved By",
+                    "name": "Approved By"
+                },
+                {
+                    "column": "Approved On",
+                    "name": "Approved On"
+                },
+                {
+                    "column": "Revision",
+                    "name": "Revision"
+                },
+                {
+                    "column": "Comments",
+                    "name": "Comments"
+                },
+                {
+                    "column": "Cost_1",
+                    "name": "Cost_1"
+                },
+                {
+                    "column": "Cost_10",
+                    "name": "Cost_10"
+                },
+                {
+                    "column": "Cost_100",
+                    "name": "Cost_100"
+                },
+                {
+                    "column": "Cost_500",
+                    "name": "Cost_500"
+                },
+                {
+                    "column": "Cost_1000",
+                    "name": "Cost_1000"
+                },
+                {
+                    "column": "Cost_2500",
+                    "name": "Cost_2500"
+                },
+                {
+                    "column": "Cost_5000",
+                    "name": "Cost_5000"
+                }
+            ]
+        },
+        {
+            "name": "RF ICs",
+            "table": "ic_rf",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Part Number",
+                    "name": "Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Supplier",
+                    "name": "Supplier"
+                },
+                {
+                    "column": "Manufacturer Alternative",
+                    "name": "Manufacturer Alternative"
+                },
+                {
+                    "column": "MPN Alternative",
+                    "name": "MPN Alternative"
+                },
+                {
+                    "column": "Manufacturer Alternative 2",
+                    "name": "Manufacturer Alternative 2"
+                },
+                {
+                    "column": "MPN Alternative 2",
+                    "name": "MPN Alternative 2"
+                },
+                {
+                    "column": "Type",
+                    "name": "Type"
+                },
+                {
+                    "column": "Protocol",
+                    "name": "Protocol"
+                },
+                {
+                    "column": "Frequency",
+                    "name": "Frequency"
+                },
+                {
+                    "column": "Interface",
+                    "name": "Interface"
+                },
+                {
+                    "column": "Memory",
+                    "name": "Memory"
+                },
+                {
+                    "column": "TxPower",
+                    "name": "TxPower"
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage"
+                },
+                {
+                    "column": "Package",
+                    "name": "Package"
                 },
                 {
                     "column": "TempRange",
@@ -3311,6 +3471,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Supplier",
+                    "name": "Supplier"
                 },
                 {
                     "column": "Manufacturer Alternative",

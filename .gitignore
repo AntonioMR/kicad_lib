@@ -5,6 +5,8 @@ lib_db/catalog.sqlite-journal
 lib_db/catalog.sqlite-wal
 lib_db/catalog.sqlite-shm
 
+lib_db/ipn_registry.csv
+
 # Python
 __pycache__/
 *.pyc
