@@ -113,12 +113,12 @@ production BOM should not contain parts missing either a real IPN or
 - [ ] Footprint origin/anchor point is consistent with the family convention (typically pin 1 or body centroid).
 - [ ] Silkscreen (`F.SilkS`) shows a pin-1 marker, does not overlap pads, and courtyard/fab layers agree on the body outline.
 - [ ] 3D model is assigned, correctly scaled/rotated/offset, and visually matches the datasheet package drawing when previewed in the footprint editor.
+- [ ] Revision field populated in footprint file.
 
 **DNP and testpoint conventions**
 - [ ] Populate-option parts are marked with KiCad's `Exclude from BOM` / `Do not populate` footprint attribute, not silently omitted from the schematic.
 - [ ] Test points use the `testpoints` family and the `TP` reference prefix, not a repurposed connector or via-only footprint.
 - [ ] A DNP part still carries a complete, reviewed symbol/footprint pair — DNP affects BOM/assembly output, not review scope.
-- [ ] Revision field populated in footprint file.
 
 ## Generated database
 

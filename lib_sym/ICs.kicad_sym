@@ -49,15 +49,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "~"
-			(at -34.29 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Revision" "01"
 			(at -34.29 13.97 0)
 			(effects

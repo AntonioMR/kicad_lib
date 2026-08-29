@@ -49,6 +49,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -191,6 +195,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -501,6 +509,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -655,6 +667,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -981,6 +997,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -1137,6 +1157,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -1283,6 +1307,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1445,6 +1473,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -1587,6 +1619,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -1733,6 +1769,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -1871,6 +1911,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2017,6 +2061,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -2151,6 +2199,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2297,8 +2349,8 @@
                     "visible_in_chooser": true
                 },
                 {
-                    "column": "Supplier",
-                    "name": "Supplier"
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2457,8 +2509,8 @@
                     "visible_in_chooser": true
                 },
                 {
-                    "column": "Supplier",
-                    "name": "Supplier"
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2611,6 +2663,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -2777,6 +2833,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -2915,6 +2975,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3057,6 +3121,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -3197,6 +3265,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -3331,6 +3403,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3473,8 +3549,8 @@
                     "visible_in_chooser": true
                 },
                 {
-                    "column": "Supplier",
-                    "name": "Supplier"
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3629,6 +3705,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -3771,6 +3851,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -3921,6 +4005,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -4067,6 +4155,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -4231,6 +4323,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -4553,6 +4649,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -4695,6 +4795,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
@@ -4845,6 +4949,10 @@
                     "visible_in_chooser": true
                 },
                 {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
+                },
+                {
                     "column": "Manufacturer Alternative",
                     "name": "Manufacturer Alternative"
                 },
@@ -4971,6 +5079,10 @@
                     "column": "Manufacturer Part Number",
                     "name": "Manufacturer Part Number",
                     "visible_in_chooser": true
+                },
+                {
+                    "column": "Suplier URL",
+                    "name": "Suplier URL"
                 },
                 {
                     "column": "Manufacturer Alternative",
