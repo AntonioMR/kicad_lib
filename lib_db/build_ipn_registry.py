@@ -4,7 +4,8 @@
 Collects every row across all source/*.csv families that has an assigned IPN
 (any suffix other than the "-????" placeholder), keeps only the common
 columns (IPN, Family, Part Number, Description, Value, Symbol, Footprint,
-Manufacturer, Manufacturer Part Number), and writes them sorted by IPN.
+Manufacturer, Manufacturer Part Number, Approved By, Approved On), and
+writes them sorted by IPN.
 
 Sorting by IPN groups same-prefix rows together regardless of which family
 they come from, which is what makes this file useful for finding the next
@@ -20,9 +21,10 @@ already carries is checked against the row about to replace it — Part
 Number, Value, Manufacturer and Manufacturer Part Number must match
 exactly. A mismatch aborts the whole run without writing the file, since it
 means an existing IPN is being pointed at a different part. Description,
-Symbol and Footprint are exempt from this check and may be freely updated
-(e.g. a corrected footprint, a reworded description) — new IPNs are always
-accepted.
+Symbol, Footprint, Approved By and Approved On are exempt from this check
+and may be freely updated (e.g. a corrected footprint, a reworded
+description, or filling in approval once a part clears production review)
+— new IPNs are always accepted.
 
 Before that check, the entries collected from source/ this run are also
 checked against each other: if the same IPN was assigned to more than one
@@ -47,6 +49,8 @@ COMMON_COLUMNS = [
     "Footprint",
     "Manufacturer",
     "Manufacturer Part Number",
+    "Approved By",
+    "Approved On",
 ]
 OUTPUT_COLUMNS = ["IPN", "Family"] + COMMON_COLUMNS
 IMMUTABLE_COLUMNS = [

@@ -1,6 +1,6 @@
-# Component Library — trial layout
+# Component Library
 
-Reusable, general-purpose component library, exposed to KiCad as a database library backed by `lib_db/catalog.sqlite`. Every catalog row is selectable and placeable in a schematic, including ones that don't have a real IPN yet.
+Reusable, general-purpose component library, exposed to KiCad as a database library backed by `lib_db/catalog.sqlite`. Every catalog row is selectable and placeable in a schematic.
 
 ## Layout
 
@@ -12,6 +12,7 @@ lib/
 ├── lib_db/
 │   ├── source/                # CSV per family — SOURCE OF TRUTH, reviewed in PRs
 │   ├── build_db.py            # regenerates catalog.sqlite from source/*.csv
+│   ├── build_ipn_registry.py  # regenerates ipn_registry.csv from source/*.csv
 │   └── catalog.sqlite         # generated — see "Generated database" below
 └── catalog.kicad_dbl          # KiCad Database Library config — see setup below
 ```
@@ -19,9 +20,12 @@ lib/
 `build_db.py` picks up any `*.csv` dropped into `source/` automatically, one
 SQLite table per file — add, split or rename families freely.
 
+`build_ipn_registry.py` scans the same `source/*.csv` files and collects
+every row with a real IPN assigned, into a single flat list sorted by IPN.
+
 ### Families
 
-33 families in `source/`, grouped by category (matches the taxonomy this
+Families in `source/`, grouped by category (matches the taxonomy this
 library was organized against):
 
 | Category | Families |
@@ -29,6 +33,7 @@ library was organized against):
 | Passive | `resistor`, `potentiometer`, `capacitor` (ceramic), `capacitor_tan`, `capacitor_elec`, `capacitor_film`, `inductor`, `ferrite` |
 | Semiconductors | `diodes`, `transistor`, `opto` |
 | ICs | `ics` (uncategorized catch-all), `microcontroller`, `processor`, `logic`, `regulator` (power management), `analog`, `interface`, `memory`, `audio` |
+| RF & Wireless | `antennas`, `ic_rf` |
 | Connectors | `connectors` |
 | Power & Protection | `relays`, `fuses`, `esd_protection` |
 | Sensors & Actuators | `sensors` |
@@ -73,7 +78,7 @@ not. If a component is used in a design, it should be assigned a unique IPN
 value. A finished project's BOM should not contain any components without a
 valid IPN value.
 
-The unassigned placeholder is a `-????` suffix (e.g. `IPN_C-????`); any
+The unassigned placeholder is a `-????` suffix (e.g. `IPN_C-????`). Any
 other suffix (e.g. `IPN_C-0001`) counts as assigned.
 
 ## Component review template
@@ -119,6 +124,33 @@ production BOM should not contain parts missing either a real IPN or
 - [ ] Populate-option parts are marked with KiCad's `Exclude from BOM` / `Do not populate` footprint attribute, not silently omitted from the schematic.
 - [ ] Test points use the `testpoints` family and the `TP` reference prefix, not a repurposed connector or via-only footprint.
 - [ ] A DNP part still carries a complete, reviewed symbol/footprint pair — DNP affects BOM/assembly output, not review scope.
+
+## IPN registry
+
+`lib_db/ipn_registry.csv` lists every component that has a real IPN
+assigned — i.e. every row across `lib_db/source/*.csv` whose `IPN` no
+longer carries the `-????` placeholder. It's the authoritative list of
+components that have passed the [review checklist](#checklist) above and
+are cleared to use in a design, at one of two levels:
+
+- **Real IPN only** (`Created By`/`Created On` filled) — reviewed and safe
+  to place in a schematic and build into a **prototype**.
+- **Real IPN + `Approved By`/`Approved On` filled** — additionally
+  validated on a built prototype or production run, and required for a
+  **production** BOM.
+
+`ipn_registry.csv` is **generated, not versioned** (gitignored) — it's
+rebuilt from `lib_db/source/*.csv` on demand with:
+
+```bash
+python3 lib/lib_db/build_ipn_registry.py
+```
+
+An IPN is permanent: once assigned it can never be repointed at a
+different part. The script checks every IPN in the CSVs against both the
+other entries being generated in the same run and the previously
+generated registry, and refuses to write the file (aborting with a
+diagnostic instead) if it finds an IPN reused for a different part.
 
 ## Generated database
 
