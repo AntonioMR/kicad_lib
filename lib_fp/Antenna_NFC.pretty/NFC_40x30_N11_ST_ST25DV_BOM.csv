@@ -1,0 +1,6 @@
+Designator,Value,Package,Description,LCSC Part#,Quantity
+ANT1,13.56MHz NFC,PCB,NFC Antenna 11 turns,-,1
+Cp,12 pF,0402,Parallel Tuning Capacitor C0G 50V,C393682,2
+Cs_a,10 pF,0402,Series Matching Capacitor C0G 50V (parallel pair with Cs_b),C513681,2
+Cs_b,5.6 pF,0402,Series Matching Capacitor C0G 50V (parallel pair with Cs_a),C505468,2
+U1,ST ST25DV,QFN/DFN,NFC Reader IC,-,1

@@ -1,0 +1,17 @@
+(kicad_symbol_lib (version 20231120) (generator "ProNFCAntennaDesigner")
+  (symbol "NFC_40x30_N11_ST_ST25DV" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "ANT1" (at -5.08 7.62 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "13.56MHz_NFC_Antenna_Hexagon" (at -5.08 5.715 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "AntennaGenerator:NFC_40x30_N11_ST_ST25DV" (at 0 -5.715 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "NFC Hexagon Antenna" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "NFC_40x30_N11_ST_ST25DV_0_1"
+      (rectangle (start -6.35 5.08) (end 6.35 -5.08) (stroke (width 0.254)) (fill (type none)))
+      (polyline (pts (xy -1.867 3.235) (xy 1.841 3.188) (xy 3.628 0.000) (xy 1.788 -3.096) (xy -1.761 -3.050) (xy -3.468 0.000) (xy -1.708 2.958) (xy 1.681 2.911) (xy 3.308 0.000) (xy 1.628 -2.819) (xy -1.601 -2.773) (xy -3.148 -0.000) (xy -1.548 2.680) (xy 1.521 2.634) (xy 2.988 -0.000) (xy 1.468 -2.542) (xy -1.441 -2.496) (xy -2.828 0.000) (xy -1.388 2.403) (xy 1.361 2.357) (xy 2.668 0.000) (xy 1.308 -2.265) (xy -1.281 -2.219) (xy -2.508 -0.000) (xy -1.228 2.126) (xy 1.201 2.080) (xy 2.349 0.000) (xy 1.148 -1.988) (xy -1.121 -1.942) (xy -2.189 -0.000) (xy -1.068 1.849) (xy 1.041 1.803) (xy 2.029 0.000) (xy 0.988 -1.711) (xy -0.961 -1.664) (xy -1.869 0.000) (xy -0.908 1.572) (xy 0.881 1.526) (xy 1.709 0.000) (xy 0.828 -1.434) (xy -0.801 -1.387) (xy -1.549 0.000) (xy -0.748 1.295) (xy 0.721 1.249) (xy 1.389 0.000) (xy 0.668 -1.156) (xy -0.641 -1.110) (xy -1.229 0.000) (xy -0.588 1.018) (xy 0.561 0.972) (xy 1.069 -0.000) (xy 0.508 -0.879) (xy -0.481 -0.833) (xy -0.909 0.000) (xy -0.428 0.741) (xy 0.401 0.695) (xy 0.749 -0.000) (xy 0.348 -0.602) (xy -0.321 -0.556) (xy -0.589 0.000) (xy -0.268 0.464) (xy 0.241 0.418) (xy 0.429 0.000) (xy 0.188 -0.325) (xy -0.161 -0.279) (xy -0.269 0.000) (xy -0.108 0.187)) (stroke (width 0.15)) (fill (type none)))
+    )
+    (symbol "NFC_40x30_N11_ST_ST25DV_1_1"
+      (pin passive line (at -8.89 2.54 0) (length 2.54) (name "OUTER" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -8.89 -2.54 0) (length 2.54) (name "INNER" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

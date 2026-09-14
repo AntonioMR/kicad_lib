@@ -24,10 +24,15 @@ Symbol and Footprint are exempt from this check and may be freely updated
 (e.g. a corrected footprint, a reworded description) — new IPNs are always
 accepted.
 
+Before that check, the entries collected from source/ this run are also
+checked against each other: if the same IPN was assigned to more than one
+part across the source CSVs, the run aborts without writing the file.
+
 Usage: python3 build_ipn_registry.py
 """
 import csv
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -71,6 +76,18 @@ def load_existing_registry(path):
     return {row["IPN"]: row for row in rows if row.get("IPN")}
 
 
+def find_duplicate_ipns(entries):
+    """IPNs assigned to more than one entry within this same run.
+
+    Returns a dict of IPN -> list of entries sharing it (only IPNs with
+    more than one entry).
+    """
+    by_ipn = defaultdict(list)
+    for entry in entries:
+        by_ipn[entry["IPN"]].append(entry)
+    return {ipn: rows for ipn, rows in by_ipn.items() if len(rows) > 1}
+
+
 def find_ipn_conflicts(entries, existing):
     """Entries whose IPN was already registered to a different part.
 
@@ -110,6 +127,16 @@ def main():
             entries.append(entry)
 
     entries.sort(key=lambda e: e["IPN"])
+
+    duplicates = find_duplicate_ipns(entries)
+    if duplicates:
+        print("Duplicate IPN(s) assigned to more than one part in source/:", file=sys.stderr)
+        for ipn, rows in duplicates.items():
+            print(f"\n  IPN {ipn}:", file=sys.stderr)
+            for row in rows:
+                print(f"    {row['Family']}: {row['Part Number']}", file=sys.stderr)
+        print(f"\nAborted — {REGISTRY_PATH} was not modified.", file=sys.stderr)
+        return 1
 
     existing = load_existing_registry(REGISTRY_PATH)
     conflicts = find_ipn_conflicts(entries, existing)

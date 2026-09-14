@@ -1,0 +1,78 @@
+    NFC COMPLIANCE EVALUATION REPORT
+Target Chip: ST ST25DV
+Date: 4/9/2026, 19:23:58
+------------------------------------------------
+
+TECHNICAL TELEMETRY:
+- Inductance (L0):   4.675 uH (geometric / low-frequency)
+- Equivalent L @ 13.56 MHz: 5.118 uH (what a VNA/LCR reads at the carrier)
+- Quality Factor (Q):24.2
+- H-Field Strength:  9.13 A/m
+- Bandwidth:         561 kHz
+- Self-Resonance:    46.07 MHz
+- Power Transfer:    410 mW
+
+EVALUATION FINDINGS:
+### 1. WHAT'S WORKING WELL
+**Antenna Physical Specification**
+- Outer Dimensions: 40 mm x 30 mm
+- Turns (N): 9
+- Trace Width: 0.3 mm
+- Trace Spacing: 0.2 mm
+- PCB Stack-up: 2-layer, 1 oz Cu, FR-4
+- Topology: passive tag coil (2-terminal, chip-across-coil)
+- Measured Inductance: 4.675 uH (geometric L0) - equivalent 5.118 uH at the carrier (VNA/LCR reading; parasitic capacitance raises apparent L near SRF)
+
+- Inductance is perfectly centered on the ST25DV datasheet-typical value (4.7 uH).
+- Resonance feasibility ratio (0.97) is excellent; the coil L does not exceed the chip's tuning ceiling.
+- Loaded Q (24.2) sits comfortably in the center of the vendor's 15-40 recommendation.
+- SRF (3.40x carrier) provides massive margin, ensuring parasitic capacitance will not destabilize tuning.
+- Trace geometry (0.3mm width / 0.2mm spacing) is well within standard low-cost fabrication limits.
+
+### 2. AREAS FOR IMPROVEMENT
+No significant issues detected - this design meets all specifications.
+
+### 3. CHIP COMPATIBILITY ANALYSIS: ST ST25DV
+**Inductance Match**: 4.675 uH vs required 3-7 uH
+- Status: PASS
+- Impact: Inductance is inside the chip window for ST ST25DV.
+
+**Resonance Feasibility**: ratio L/Limplied = 0.97
+- Status: PASS (tunable to the carrier with CTune <= Cin).
+- Impact: The coil is correctly sized to allow the chip's internal capacitance to reach resonance.
+
+**Loaded Q**: 24.2 vs vendor band 15-40
+- Status: PASS
+- Impact: Provides a good balance between energy harvesting (coupling) and data rate stability for ISO 15693.
+
+### 4. RESONANCE & TUNING
+- **Tank**: Cin=28.5 pF internal + CTune 0 pF (none required) against L=4.675 uH.
+- **Self-Resonant Frequency**: 46.1 MHz - 3.40x carrier.
+- Status: PASS (full margin).
+- Note: The native resonance sits slightly above 13.56 MHz; this is ideal as proximity to a reader or substrate will pull the frequency down toward the carrier.
+
+### 5. Component Recommendation (CTune)
+- STATUS: no external CTune required - the coil's native tune with the chip's internal 28.5 pF lands within tolerance. Do not add one.
+
+### 6. Production and Fabrication
+- **Trace Manufacturability**: 0.3mm width and 0.2mm spacing are robust for standard 1 oz copper processes; no yield issues expected.
+- **Keep-Out Zone**: The 5mm element-centric keep-out must be strictly maintained on all PCB layers. Any copper (pours, traces, or ground planes) entering this 5mm zone will shift inductance and detune the tag.
+- **Mounting Surface**: These results assume an air environment. If this tag is applied to plastic, wood, or glass, resonance will shift down. If mounted to metal, a ferrite absorber is mandatory and the coil must be completely redesigned.
+
+### 7. Optimization Suggestions
+This design is well-optimized.
+
+### 8. Validation & Certification
+These are calculated/simulated values, not measurements. A finished tag MUST be validated with hardware testing on the assembled inlay, on its final mounting surface.
+- LCR/VNA: measure the bare coil's L and SRF; investigate any >10% deviation from the calculated values before proceeding.
+- Assembled-tag resonance: measure with a loop-probe dip method or impedance analyzer with the chip populated; target slightly above 13.56 MHz per the tuning practice above.
+- Functional test with the real target reader(s) at the intended mounting position - tag performance is only meaningful against a reader.
+- Formal interoperability where required: ISO/IEC 10373-7 (ISO 15693) test methods or NFC Forum certification.
+- A passive tag contains no transmitter, so its regulatory exposure is far lighter than a reader's - but the finished product still follows its normal compliance path, and in-situ verification on the final material is mandatory.
+
+PASS: No critical design rule violations detected locally.
+
+SUGGESTED MATCHING NETWORK:
+- Series Cap (Cs):   15 pF
+- Parallel Cap (Cp): 6.8pF + 5.6pF in parallel = 12.399999999999999 pF
+- Damping Res (Rq):  0 Ohm
