@@ -9,7 +9,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 7.62 0)
+			(at 2.794 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17,7 +17,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Dual_NC"
-			(at 0 -6.35 0)
+			(at 9.906 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,30 +73,6 @@
 			(circle
 				(center 0 -2.54)
 				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -3.81) (xy 2.54 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy 2.54 3.81)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -189,7 +165,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 3.81 0)
+				(at 0 6.35 270)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -207,25 +183,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 3.81 180)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -3.81 0)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -240,37 +198,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -3.81 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SW_Push_Dual_NC_1_1"
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.794 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
@@ -282,7 +209,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 7.62 0)
+			(at 3.556 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +217,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Dual_NO"
-			(at 0 -6.35 0)
+			(at 10.668 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,30 +273,6 @@
 			(circle
 				(center 0 -2.54)
 				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -3.81) (xy 2.54 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 3.81) (xy 2.54 3.81)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -462,7 +365,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 3.81 0)
+				(at 0 6.35 270)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -480,25 +383,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 3.81 180)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -3.81 0)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -513,37 +398,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -3.81 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SW_Push_Dual_NO_1_1"
-			(rectangle
-				(start -2.54 5.08)
-				(end 2.794 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
