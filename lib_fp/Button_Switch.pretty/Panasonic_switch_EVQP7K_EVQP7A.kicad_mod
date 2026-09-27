@@ -1,4 +1,4 @@
-(footprint "Panasonic_EVQP7K_EVQP7A"
+(footprint "Panasonic_switch_EVQP7K_EVQP7A"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Panasonic_EVQP7K_EVQP7A"
+	(property "Value" "Panasonic_switch_EVQP7K_EVQP7A"
 		(at 0 3.25 0)
 		(layer "F.Fab")
 		(uuid "836a740c-e3b3-420f-b787-aec05cbf5279")
